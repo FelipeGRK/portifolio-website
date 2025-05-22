@@ -8,10 +8,18 @@ html, body {
 /* 3D Model Viewer Container */
 #three-container {
   width: 100%;
-  height: 1000px;             /* adjust as desired */
+  height: 800px;             /* adjust as desired */
   background: rgba(0, 0, 0, 0.2);
   overflow: hidden;
   position: relative;
+  border: none !important;
+  border: 2px solid transparent !important;
+  box-shadow: none !important;
+}
+.model-viewer-section {
+  border: none !important;
+  box-shadow: none !important;
+  border: 2px solid transparent !important;
 }
 
 /* Wrapper section for the model viewer (if used) */
@@ -28,4 +36,9 @@ html, body {
   color: #8b5cf6;
   margin-bottom: 1.5rem;
   text-align: center;
+}
+
+/* If you want to target all divs with border-0 in Tailwind, you can use: */
+.border-0 {
+  border: 2px solid transparent !important;
 }
