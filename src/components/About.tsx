@@ -86,19 +86,19 @@ export default function About() {
         >
           <li className="flex items-start">
             <span className="mr-4 text-2xl">🎮</span>
-            Founder of **Esports College Finder** , a platform helping high-schoolers discover U.S. colleges with competitive gaming scholarships.
+             Passionate about bridging esports and education—created Esports College Finder to help high-schoolers discover competitive gaming scholarships.
           </li>
           <li className="flex items-start">
             <span className="mr-4 text-2xl">🎓</span>
-            Pursuing a BSc in Information Technology (minor Software Engineering) at Fisher College—Dean’s List Fall 2024.
+            Pursuing a BSc in Information Technology (minor Software Engineering) at Fisher College—Dean’s List Fall 2024. Expected Graduation May 2026
+          </li>
+          <li className="flex items-start">
+            <span className="mr-4 text-2xl">🚀</span>
+             Goal : secure a Software Engineer internship in 2025 to gain hands-on experience,contribute to innovative projects and and learn from experienced IT professionals.
           </li>
           <li className="flex items-start">
             <span className="mr-4 text-2xl">🤖</span>
             Integrated an AI-powered chatbot (GPT API) to deliver personalized, real-time college recommendations.
-          </li>
-          <li className="flex items-start">
-            <span className="mr-4 text-2xl">🌐</span>
-            On a mission to bridge esports and education by making competitive gaming programs accessible and well-supported at the collegiate level.
           </li>
         </motion.ul>
       </div>
