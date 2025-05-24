@@ -1,3 +1,4 @@
+
 // src/components/JobCard.tsx
 import React from 'react'
 
