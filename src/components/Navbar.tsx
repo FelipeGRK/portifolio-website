@@ -14,7 +14,6 @@ const LINKS: NavLink[] = [
   { label: 'Skills',         sectionId: 'skills'         }, 
   { label: 'Certifications', sectionId: 'certifications' },
   { label: 'Education',      sectionId: 'education'      },
-  { label: 'Contact',        sectionId: 'contact'        },
 ]
 
 const Navbar: React.FC = () => {

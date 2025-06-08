@@ -63,7 +63,7 @@ const formatDate = (iso: string) => {
 }
 
 const Education: React.FC = () => (
-  <section id="education" className="py-20 px-4 bg-gray-800">
+  <section id="education" className="py-20 px-4 bg-gray-900 text-gray-200">
     <div className="max-w-4xl mx-auto">
       <h2 className="text-3xl font-bold text-white mb-12">Education</h2>
       <h2 className="text-3xl font-bold text-green-400 mb-12">Expected Graduation May 2026</h2>
