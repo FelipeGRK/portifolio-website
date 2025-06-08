@@ -66,14 +66,13 @@ const App: React.FC = () => (
     <div id="about" className="scroll-mt-16">
       <About />
     </div>
-
+ {/* ——— PROJECTS SECTION ——— */}
+    <div id="projects" className="scroll-mt-16">
+      <ProjectsSection />
+    </div>
     {/* ——— SKILLS SECTION ——— */}
     <div id="skills" className="scroll-mt-16">
       <SkillsSection />
-    </div>
-    {/* ——— PROJECTS SECTION ——— */}
-    <div id="projects" className="scroll-mt-16">
-      <ProjectsSection />
     </div>
     
     {/* ——— CERTIFICATIONS SECTION ——— */}

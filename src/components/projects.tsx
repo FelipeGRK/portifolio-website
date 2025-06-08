@@ -56,7 +56,7 @@ const PROJECTS: Project[] = [
     description: 'Responsive, modern website for a gym with video hero, testimonials, and embedded Google Map.',
     date: 'Mar 2025 - Apr 2025',
     skills: 'HTML · CSS · JavaScript · Responsive Design · UI/UX · Git',
-    imageUrl: '/assets/projects/iron-forge.png',
+    imageUrl: '/assets/projects/gymwebsite.png',
     link: 'https://github.com/FelipeGRK/iron-forge-gym',
   },
 ];
