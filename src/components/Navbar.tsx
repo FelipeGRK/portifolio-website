@@ -8,12 +8,13 @@ interface NavLink {
 }
 
 const LINKS: NavLink[] = [
-  { label: 'Home',          sectionId: 'hero'          },
-  { label: 'About',         sectionId: 'about'         },
-  { label: 'Skills',        sectionId: 'skills'        },
-  { label: 'Certifications',sectionId: 'certifications'},
-  { label: 'Education',     sectionId: 'education'     },
-  { label: 'Contact',       sectionId: 'contact'       },
+  { label: 'Home',           sectionId: 'hero'           },
+  { label: 'About',          sectionId: 'about'          },
+  { label: 'Skills',         sectionId: 'skills'         },
+  { label: 'Projects',       sectionId: 'projects'       },  
+  { label: 'Certifications', sectionId: 'certifications' },
+  { label: 'Education',      sectionId: 'education'      },
+  { label: 'Contact',        sectionId: 'contact'        },
 ]
 
 const Navbar: React.FC = () => {
@@ -30,7 +31,7 @@ const Navbar: React.FC = () => {
   const scrollTo = (id: string) => {
     const el = document.getElementById(id)
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth' })
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' })
       setMenuOpen(false)
     }
   }
@@ -50,7 +51,7 @@ const Navbar: React.FC = () => {
           onClick={() => scrollTo('hero')}
           className="text-2xl font-bold text-white focus:outline-none"
         >
-          Felipe's Portifolio
+          Felipe's Portfolio
         </button>
 
         {/* desktop nav */}
