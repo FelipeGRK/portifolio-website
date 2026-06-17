@@ -93,8 +93,8 @@ export default function About() {
             Pursuing a BSc in Information Technology (minor Software Engineering) at Fisher College—Dean’s List Fall 2024. Expected Graduation May 2026
           </li>
           <li className="flex items-start">
-            <span className="mr-4 text-2xl">🚀</span>
-             Goal : secure a Software Engineer internship in 2025 to gain hands-on experience,contribute to innovative projects and and learn from experienced IT professionals.
+            <span className="mr-4 text-2xl">🛠️</span>
+             Hands-on IT Support / Help Desk Technician at Fisher College IT — handling first-level technical support, Spiceworks ticketing, password resets, user provisioning, and remote support (Quick Assist, RDP) across Windows 10/11, Active Directory, and Microsoft 365 environments.
           </li>
           <li className="flex items-start">
             <span className="mr-4 text-2xl">🤖</span>
