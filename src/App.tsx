@@ -29,7 +29,7 @@ const App: React.FC = () => (
           <p className="text-xl text-gray-300 mb-8">
             <a href="https://git.io/typing-svg">
               <img
-                src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=29FF09&width=435&lines=Aspiring+Software+Engineer"
+                src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=29FF09&width=560&lines=IT+Support+%7C+Help+Desk+Technician"
                 alt="Typing SVG"
               />
             </a>
