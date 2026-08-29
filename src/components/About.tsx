@@ -27,21 +27,23 @@ return (
 initial="hidden"
 animate={controls}
 variants={fadeIn(0)}
-className="max-w-4xl mx-auto text-center mb-12"
+className="max-w-4xl mx-auto text-center mb-10"
 >
 <p className="text-sm uppercase text-purple-400 mb-2">Introduction</p>
 <h2 className="text-4xl font-bold">About me</h2>
 </motion.div>
 
 <div className="max-w-4xl mx-auto flex flex-col gap-10">
-{/* Profile + buttons — top */}
+{/* Profile card + Top Skills card — centered side by side */}
+<div className="flex flex-col sm:flex-row gap-6 justify-center items-stretch">
+{/* Profile card */}
 <motion.div
 initial="hidden"
 animate={controls}
 variants={fadeIn(0.2)}
-className="flex flex-col items-center space-y-6"
+className="flex flex-col items-center space-y-6 bg-gray-800/50 border border-purple-500/30 rounded-2xl p-6"
 >
-<div className="w-48 h-48 rounded-full overflow-hidden shadow-lg">
+<div className="w-40 h-40 rounded-full overflow-hidden shadow-lg ring-2 ring-purple-500/50">
 <img
 src="/assets/profile.jpg"
 alt="Felipe Siqueira"
@@ -77,6 +79,20 @@ GitHub
 </div>
 </motion.div>
 
+{/* Top Skills card */}
+<motion.div
+initial="hidden"
+animate={controls}
+variants={fadeIn(0.3)}
+className="bg-gray-800/50 border border-purple-500/30 rounded-2xl p-6 sm:max-w-xs flex flex-col justify-center"
+>
+<p className="text-sm uppercase text-purple-400 mb-2">Top skills</p>
+<p className="text-sm text-gray-300">
+CompTIA Network+ Certified • Network Troubleshooting • Network Security • Wireless &amp; Wired Performance • Networking Concepts • IT Support &amp; Troubleshooting • Active Directory &amp; Azure AD Administration • Identity and Access Management (IAM)
+</p>
+</motion.div>
+</div>
+
 {/* About text — below */}
 <motion.div
 initial="hidden"
@@ -90,12 +106,6 @@ I'm a motivated IT professional with hands-on experience in technical support, A
 <p>
 I'm known for patience, flexibility, and a team-oriented mindset, and I like to research, test, and validate solutions, not just understand them in theory. I also look for ways to improve processes and address issues early. Outside of daily support work, I continue building my network skills — Network Troubleshooting, Network Security, Network Operations, Network Implementation, and Networking Concepts — through my home lab and hands-on projects. I'm CompTIA Network+ certified and am eager to grow into network administration.
 </p>
-<div className="pt-2">
-<p className="text-sm uppercase text-purple-400 mb-2">Top skills</p>
-<p className="text-base text-gray-300">
-CompTIA Network+ Certified • Network Troubleshooting • Network Security • Wireless &amp; Wired Performance • Networking Concepts • IT Support &amp; Troubleshooting • Active Directory &amp; Azure AD Administration • Identity and Access Management (IAM)
-</p>
-</div>
 </motion.div>
 </div>
 </section>
