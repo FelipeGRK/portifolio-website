@@ -18,20 +18,32 @@ const App: React.FC = () => (
 
 {/* ——— HERO + ABOUT ——— */}
 <div id="hero" className="pt-16">
-{/* Intro heading + profile/top-skills cards — full width, above everything */}
+{/* Intro heading + profile/top-skills card — full width, above everything */}
 <IntroCards />
 
-<div className="flex flex-col lg:flex-row lg:items-start">
-{/* ——— ABOUT TEXT COLUMN ——— */}
-<div id="about" className="lg:w-1/2 scroll-mt-16">
+{/* ——— 3D MODEL BACKDROP WITH TEXT OVERLAID ——— */}
+<div id="about" className="relative h-auto lg:h-[720px] scroll-mt-16 py-12 lg:py-0">
+{/* 3D model fills the whole block on desktop */}
+<div className="hidden lg:block absolute inset-0">
+<PCModelViewer />
+</div>
+{/* Dark gradient so overlaid text stays readable against the model */}
+<div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/70 to-gray-900/10 pointer-events-none" />
+<div className="hidden lg:block absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-gray-900 pointer-events-none" />
+
+<div className="relative z-10 max-w-6xl mx-auto px-4 flex flex-col lg:flex-row lg:items-center gap-10 lg:h-full">
+{/* About text — overlaid on the left of the model on desktop */}
+<div className="lg:w-1/2">
 <About />
 </div>
 
-{/* ——— 3D MODEL + INTRO COLUMN ——— */}
-<div className="lg:w-1/2 relative h-[55vh] lg:h-[640px]">
+{/* Mobile-only 3D model (stacked, not overlapping text) */}
+<div className="lg:hidden relative h-[50vh] rounded-2xl overflow-hidden">
 <PCModelViewer />
-<div className="absolute inset-0 flex flex-col items-center justify-start pt-10 lg:pt-16 bg-gradient-to-b from-transparent to-gray-900">
-<div className="text-center px-4">
+</div>
+
+{/* Hi, I'm Felipe + intro — right side, over the model on desktop */}
+<div className="lg:w-1/2 flex flex-col items-center text-center">
 <h1 className="text-4xl lg:text-6xl font-bold mb-4">
 Hi, I’m{' '}
 <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-300">
@@ -69,7 +81,6 @@ className="bg-gray-800 p-4 rounded-full hover:bg-gray-700 transition"
 >
 <Mail className="w-6 h-6" />
 </a>
-</div>
 </div>
 </div>
 </div>
