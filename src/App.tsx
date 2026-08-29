@@ -12,7 +12,9 @@ import './index.css'
 import { Github, Linkedin, Mail } from 'lucide-react'
 
 const App: React.FC = () => (
-<div className="min-h-screen bg-gray-900 text-white">
+<div className="mrelative in-h-screen bg-gray-900 text-white">
+  {/* ——— WHITE SQUARE GRID BACKGROUND ——— */}
+    <div className="pointer-events-none fixed inset-0 bg-grid" />
 {/* ——— NAVBAR ——— */}
 <Navbar />
 
