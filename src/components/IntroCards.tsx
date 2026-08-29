@@ -28,7 +28,8 @@ animate={controls}
 variants={fadeIn(0)}
 className="max-w-4xl mx-auto text-center mb-10"
 >
-<p className="text-sm uppercase text-purple-400 mb-2">Introduction</p>
+<div className="mb-6 inline-flex items-center gap-2 rounded-full border border-purple-500/30 bg-gray-800/60 px-4 py-2 text-sm text-gray-200 backdrop-blur-sm"><span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" /><span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" /></span>Actively seeking full-time IT Support & Network Admin roles</div>
+</div><p className="text-sm uppercase text-purple-400 mb-2">Introduction</p>
 <h2 className="text-4xl font-bold">About me</h2>
 </motion.div>
 
