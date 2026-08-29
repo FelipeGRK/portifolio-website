@@ -77,13 +77,19 @@ skills: [
 ]
 const SkillsSection: React.FC = () => (
 <section id="skills" className="py-20 px-4 bg-gray-900 text-gray-200">
-<div className="max-w-5xl mx-auto space-y-12 text-white">
+<div className="max-w-6xl mx-auto space-y-10 text-white">
 <h2 className="text-4xl font-bold text-center">Skills</h2>
+
+{/* Glowing panel wrapping all categories */}
+<div
+className="relative rounded-3xl border border-sky-400/40 bg-[radial-gradient(circle_at_top,_#111827,_#0a0e17_75%)] p-6 md:p-10 shadow-[0_0_25px_4px_rgba(56,189,248,0.35),0_0_70px_18px_rgba(56,189,248,0.12)]"
+>
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10">
 {SKILL_CATEGORIES.map(cat => (
 <div key={cat.title} className="space-y-4">
-<h3 className="text-2xl font-medium text-center">
+<h3 className="text-lg font-medium text-center">
 {cat.title}
-<span className="block h-1 w-20 mx-auto mt-1 bg-purple-600"></span>
+<span className="block h-1 w-16 mx-auto mt-1 bg-purple-600"></span>
 </h3>
 <div className="flex flex-wrap justify-center gap-4">
 {cat.skills.map(skill => (
@@ -111,6 +117,8 @@ className="h-10 w-10 object-contain"
 </div>
 </div>
 ))}
+</div>
+</div>
 </div>
 </section>
 )
