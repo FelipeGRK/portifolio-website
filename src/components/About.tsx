@@ -33,13 +33,13 @@ className="max-w-4xl mx-auto text-center mb-12"
 <h2 className="text-4xl font-bold">About me</h2>
 </motion.div>
 
-<div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-10">
-{/* Profile + buttons */}
+<div className="max-w-4xl mx-auto flex flex-col gap-10">
+{/* Profile + buttons — top */}
 <motion.div
 initial="hidden"
 animate={controls}
 variants={fadeIn(0.2)}
-className="flex-shrink-0 flex flex-col items-center space-y-6"
+className="flex flex-col items-center space-y-6"
 >
 <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg">
 <img
@@ -77,12 +77,12 @@ GitHub
 </div>
 </motion.div>
 
-{/* About text */}
+{/* About text — below */}
 <motion.div
 initial="hidden"
 animate={controls}
 variants={fadeIn(0.4)}
-className="space-y-6 text-lg flex-1"
+className="space-y-6 text-lg"
 >
 <p>
 I'm a motivated IT professional with hands-on experience in technical support, Active Directory, Microsoft Entra ID, endpoint deployment, asset management, and infrastructure-focused homelab projects. I learn quickly, stay organized, and take ownership of new tasks, while keeping a strong focus on documentation, follow-up, and reliable support. I am currently actively seeking full-time Network Administrator Jr. and Tier 2 Support positions where I can continue building my skills and contribute to a team.
