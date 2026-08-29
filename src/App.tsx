@@ -2,6 +2,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import PCModelViewer from './components/PCModelViewer'
+import IntroCards from './components/IntroCards'
 import About from './components/About'
 import SkillsSection from './components/SkillsSection'
 import CertificationsSection from './components/certifications'
@@ -15,10 +16,13 @@ const App: React.FC = () => (
 {/* ——— NAVBAR ——— */}
 <Navbar />
 
-{/* ——— HERO + ABOUT SIDE BY SIDE ——— */}
+{/* ——— HERO + ABOUT ——— */}
 <div id="hero" className="pt-16">
+{/* Intro heading + profile/top-skills cards — full width, above everything */}
+<IntroCards />
+
 <div className="flex flex-col lg:flex-row">
-{/* ——— ABOUT COLUMN ——— */}
+{/* ——— ABOUT TEXT COLUMN ——— */}
 <div id="about" className="lg:w-1/2 scroll-mt-16">
 <About />
 </div>
