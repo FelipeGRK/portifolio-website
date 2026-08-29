@@ -75,13 +75,6 @@ className="px-6 py-3 bg-purple-600 hover:bg-gray-700 rounded-md text-white font-
 GitHub
 </a>
 </div>
-
-<div className="text-center">
-<p className="text-sm uppercase text-purple-400 mb-2">Top skills</p>
-<p className="text-sm text-gray-300">
-CompTIA Network+ Certified • Network Troubleshooting • Network Security • Wireless &amp; Wired Performance • Networking Concepts • IT Support &amp; Troubleshooting • Active Directory &amp; Azure AD Administration • Identity and Access Management (IAM)
-</p>
-</div>
 </motion.div>
 
 {/* About text */}
@@ -97,6 +90,12 @@ I'm a motivated IT professional with hands-on experience in technical support, A
 <p>
 I'm known for patience, flexibility, and a team-oriented mindset, and I like to research, test, and validate solutions, not just understand them in theory. I also look for ways to improve processes and address issues early. Outside of daily support work, I continue building my network skills — Network Troubleshooting, Network Security, Network Operations, Network Implementation, and Networking Concepts — through my home lab and hands-on projects. I'm CompTIA Network+ certified and am eager to grow into network administration.
 </p>
+<div className="pt-2">
+<p className="text-sm uppercase text-purple-400 mb-2">Top skills</p>
+<p className="text-base text-gray-300">
+CompTIA Network+ Certified • Network Troubleshooting • Network Security • Wireless &amp; Wired Performance • Networking Concepts • IT Support &amp; Troubleshooting • Active Directory &amp; Azure AD Administration • Identity and Access Management (IAM)
+</p>
+</div>
 </motion.div>
 </div>
 </section>
