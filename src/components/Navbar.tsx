@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
         >
           Felipe's Portfolio
         </button>
-
+<div className="hidden md:inline-flex items-center gap-2 rounded-full border border-purple-500/30 bg-gray-800/60 px-3 py-1 text-xs text-gray-200 backdrop-blur-sm"><span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" /><span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" /></span>Actively seeking full-time IT Support & Network Admin roles</div>
         {/* desktop nav */}
         <nav className="hidden md:flex space-x-6">
           {LINKS.map((link) => (
