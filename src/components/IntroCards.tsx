@@ -32,15 +32,14 @@ className="max-w-4xl mx-auto text-center mb-10"
 <h2 className="text-4xl font-bold">About me</h2>
 </motion.div>
 
-<div className="max-w-4xl mx-auto flex flex-col sm:flex-row gap-6 justify-center items-stretch">
-{/* Profile card */}
+{/* Single combined card: profile + buttons + top skills */}
 <motion.div
 initial="hidden"
 animate={controls}
 variants={fadeIn(0.2)}
-className="flex flex-col items-center space-y-6 bg-gray-800/50 border border-purple-500/30 rounded-2xl p-6"
+className="max-w-2xl mx-auto flex flex-col items-center space-y-6 bg-gray-800/50 border border-purple-500/30 rounded-2xl p-8 md:p-10"
 >
-<div className="w-40 h-40 rounded-full overflow-hidden shadow-lg ring-2 ring-purple-500/50">
+<div className="w-48 h-48 rounded-full overflow-hidden shadow-lg ring-2 ring-purple-500/50">
 <img
 src="/assets/profile.jpg"
 alt="Felipe Siqueira"
@@ -74,21 +73,18 @@ className="px-6 py-3 bg-purple-600 hover:bg-gray-700 rounded-md text-white font-
 GitHub
 </a>
 </div>
-</motion.div>
 
-{/* Top Skills card */}
-<motion.div
-initial="hidden"
-animate={controls}
-variants={fadeIn(0.3)}
-className="bg-gray-800/50 border border-purple-500/30 rounded-2xl p-6 sm:max-w-xs flex flex-col justify-center"
->
+{/* Divider */}
+<div className="w-full border-t border-purple-500/20" />
+
+{/* Top Skills — integrated into the same card */}
+<div className="w-full text-center">
 <p className="text-sm uppercase text-purple-400 mb-2">Top skills</p>
 <p className="text-sm text-gray-300">
 CompTIA Network+ Certified • Network Troubleshooting • Network Security • Wireless &amp; Wired Performance • Networking Concepts • IT Support &amp; Troubleshooting • Active Directory &amp; Azure AD Administration • Identity and Access Management (IAM)
 </p>
-</motion.div>
 </div>
+</motion.div>
 </div>
 );
 }
