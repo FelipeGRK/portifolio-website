@@ -21,12 +21,12 @@ transition: { duration: 0.6, delay },
 });
 
 return (
-<section ref={ref} className="pb-20 pt-10 px-4 bg-gray-900 text-gray-200">
 <motion.div
+ref={ref}
 initial="hidden"
 animate={controls}
 variants={fadeIn(0.1)}
-className="max-w-4xl mx-auto space-y-6 text-lg"
+className="space-y-5 text-base lg:text-lg text-gray-100 [text-shadow:_0_1px_6px_rgb(0_0_0_/_70%)]"
 >
 <p>
 I'm a motivated IT professional with hands-on experience in technical support, Active Directory, Microsoft Entra ID, endpoint deployment, asset management, and infrastructure-focused homelab projects. I learn quickly, stay organized, and take ownership of new tasks, while keeping a strong focus on documentation, follow-up, and reliable support. I am currently actively seeking full-time Network Administrator Jr. and Tier 2 Support positions where I can continue building my skills and contribute to a team.
@@ -35,6 +35,5 @@ I'm a motivated IT professional with hands-on experience in technical support, A
 I'm known for patience, flexibility, and a team-oriented mindset, and I like to research, test, and validate solutions, not just understand them in theory. I also look for ways to improve processes and address issues early. Outside of daily support work, I continue building my network skills — Network Troubleshooting, Network Security, Network Operations, Network Implementation, and Networking Concepts — through my home lab and hands-on projects. I'm CompTIA Network+ certified and am eager to grow into network administration.
 </p>
 </motion.div>
-</section>
 );
 }
