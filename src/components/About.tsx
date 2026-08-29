@@ -85,15 +85,15 @@ variants={fadeIn(0.4)}
 className="space-y-6 text-lg flex-1"
 >
 <p>
-I'm a motivated IT professional with hands-on experience in technical support, Active Directory, Microsoft Entra ID, endpoint deployment, asset management, and infrastructure-focused homelab projects. I learn quickly, stay organized, and take ownership of new tasks, while keeping a strong focus on documentation, follow-up, and reliable support. I am currently actively seeking full-time opportunities in IT operations where I can continue building my skills and contribute to a team.
+I'm a motivated IT professional with hands-on experience in technical support, Active Directory, Microsoft Entra ID, endpoint deployment, asset management, and infrastructure-focused homelab projects. I learn quickly, stay organized, and take ownership of new tasks, while keeping a strong focus on documentation, follow-up, and reliable support. I am currently actively seeking full-time Network Administrator Jr. and Tier 2 Support positions where I can continue building my skills and contribute to a team.
 </p>
 <p>
-I'm known for patience, flexibility, and a team-oriented mindset, and I like to research, test, and validate solutions, not just understand them in theory. I also look for ways to improve processes and address issues early. Outside of daily support work, I continue building my technical skills through hands-on labs, research, and technical documentation, with growing experience in systems administration, identity and access management, endpoint management, and infrastructure monitoring.
+I'm known for patience, flexibility, and a team-oriented mindset, and I like to research, test, and validate solutions, not just understand them in theory. I also look for ways to improve processes and address issues early. Outside of daily support work, I continue building my network skills — Network Troubleshooting, Network Security, Network Operations, Network Implementation, and Networking Concepts — through my home lab and hands-on projects. I'm CompTIA Network+ certified and am eager to grow into network administration.
 </p>
 <div className="pt-2">
 <p className="text-sm uppercase text-purple-400 mb-2">Top skills</p>
 <p className="text-base text-gray-300">
-IT Support &amp; Troubleshooting • CompTIA Network+ Certified • Active Directory &amp; Azure AD Administration • Microsoft 365 Administration • Identity and Access Management (IAM)
+CompTIA Network+ Certified • Network Troubleshooting • Network Security • Wireless &amp; Wired Performance • Networking Concepts • IT Support &amp; Troubleshooting • Active Directory &amp; Azure AD Administration • Identity and Access Management (IAM)
 </p>
 </div>
 </motion.div>
