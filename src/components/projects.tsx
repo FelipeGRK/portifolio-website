@@ -43,33 +43,6 @@ skills: 'UniFi (Ubiquiti) Switching · Static IP · PoE · Dante Audio · Networ
 icon: <NetworkIcon className="w-16 h-16 text-green-400" />,
 link: 'https://www.linkedin.com/in/felipe-siqueira-0bbb6a169/',
 },
-{
-id: 'clutchedu',
-name: 'ClutchEDU',
-description: 'Tinder-style mobile app to discover esports-focused colleges based on location, major, and scholarships.',
-date: 'May 2025 - Present',
-skills: 'Node.js · Geolocation API · JavaScript · Tailwind CSS · Firebase · React.js · GitHub',
-imageUrl: '/assets/clutchedu.png',
-link: 'https://github.com/FelipeGRK/ClutchEDU',
-},
-{
-id: 'portfolio',
-name: 'Portfolio Website',
-description: 'Personal portfolio showcasing 3D models, projects, and skills built with React, TypeScript, and Three.js.',
-date: 'May 2025',
-skills: 'Git · TypeScript · Tailwind CSS · Three.js · Vite · PostCSS',
-imageUrl: '/assets/portifolio.png',
-link: 'https://portifolio-website-omega.vercel.app/',
-},
-{
-id: 'esportsfinder',
-name: 'Esports College Finder',
-description: "Full-stack platform to help high school students discover esports programs, with AI chatbot integration.",
-date: 'Jan 2025 - Apr 2025',
-skills: 'HTML · CSS · JavaScript · PHP · MySQL · GPT API · Prompt Engineering · cPanel',
-imageUrl: '/assets/esportsfinder.png',
-link: 'https://esportsfinderusa.com',
-},
 ];
 
 // Animation variants
