@@ -21,16 +21,16 @@ const App: React.FC = () => (
 {/* Intro heading + profile/top-skills cards — full width, above everything */}
 <IntroCards />
 
-<div className="flex flex-col lg:flex-row">
+<div className="flex flex-col lg:flex-row lg:items-start">
 {/* ——— ABOUT TEXT COLUMN ——— */}
 <div id="about" className="lg:w-1/2 scroll-mt-16">
 <About />
 </div>
 
 {/* ——— 3D MODEL + INTRO COLUMN ——— */}
-<div className="lg:w-1/2 relative h-[60vh] lg:h-auto lg:min-h-[calc(100vh-4rem)]">
+<div className="lg:w-1/2 relative h-[55vh] lg:h-[640px]">
 <PCModelViewer />
-<div className="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent to-gray-900">
+<div className="absolute inset-0 flex flex-col items-center justify-start pt-10 lg:pt-16 bg-gradient-to-b from-transparent to-gray-900">
 <div className="text-center px-4">
 <h1 className="text-4xl lg:text-6xl font-bold mb-4">
 Hi, I’m{' '}
